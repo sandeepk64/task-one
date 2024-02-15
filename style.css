@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#container{
+    width: 100%;
+    position: relative;
+}
+
+#home{
+    background-image: url("./img/alex-azabache-rwCjbjaK-Zs-unsplash.jpg");
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#line{
+    font-size: 15px;
+    color: darkblue;
+}
+
+#header{
+    width: 100%;
+}
+#button{
+    margin: 250px 50%;
+}
+
+.packages{
+    display: flex;
+    justify-content: center;
+}
+
+
+.nav-heads{
+    margin: 0px 23px;
+}
+
+.home-left{
+    margin-top: 65px;
+    color: rgb(244, 252, 252);
+}
+
+.home-head{
+    font-weight: 900;
+    line-height: 70px;
+}
+
+.home-subhead{
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 100;
+    font-size: 41px;
+    font-style: normal;
+    line-height: 70px;
+  
+}
+#more-pac{
+    background-color: blue;
+    color: white;
+}
+.more{
+    display:flex ;
+  justify-content: center;
+}
+
+.special{
+    background-color: rgb(216, 216, 214);
+}
+#race{
+    color: aliceblue;
+    background-color: blue;
+}
+#cor-head{
+    font-family: "Protest Riot", sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    color: blue;
+    margin-bottom: 40px;
+
+}
+.card{
+    padding: 1rem 1rem;
+}
+#sub-head{
+    font-family: "Protest Riot", sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    color: red;
+}
+
+.co-lo{
+    background-color: beige;
+    border-radius: 5rem;
+}
+#btm-head{
+    font-family: "Protest Riot", sans-serif;
+    color: blue;
+    text-align: center;
+}
+.bottom-card{
+    background-color: thistle;
+}
+.env{
+   display: flex;
+   justify-content: center;
+    font-size: 3rem;
+    color: cornflowerblue;
+}
+.star{
+    text-align: center;
+    font-size: 1rem;
+    color: green;
+}
+#btm-last{
+    background-color: transparent;
+}
+#foot-bac{
+    background-color: rgb(23, 23, 67);
+}
+#hd{
+    color: white;
+}
+.foot-head{
+    color: burlywood;
+}
+.ic{
+    color: white;
+    font-size: 30px;
+}
